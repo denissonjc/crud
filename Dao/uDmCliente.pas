@@ -184,7 +184,7 @@ begin
       Result := true;
       except on E: exception do
       begin
-        sErro := 'Ocorreu um erro ao Ecluir Pessoa: ' + sLineBreak + E.message;
+        sErro := 'Ocorreu um erro ao Excluir: ' + sLineBreak + E.message;
         Result := False;
       end;
 

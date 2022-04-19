@@ -234,7 +234,7 @@ begin
   try
     if (DmCliente.cdsPesquisar.Active) and (DmCliente.cdsPesquisar.RecordCount > 0) then
     begin
-      if MessageDlg('deseja Ecluir?', mtConfirmation, [mbYes, mbno], 0) = IDYES then
+      if MessageDlg('Deseja excluir?', mtConfirmation, [mbYes, mbno], 0) = IDYES then
       begin
         if oClienteController.Exlcuir(DmCliente.cdsPesquisarID.AsInteger, sErro) = false then
           raise Exception.Create(sErro);
@@ -242,7 +242,7 @@ begin
       end;
     end
     else
-    raise Exception.Create('nao a registro para excluir');
+    raise Exception.Create('Não ha registros para excluir');
   finally
     FreeAndNil(oClienteController);
   end;

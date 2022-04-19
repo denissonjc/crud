@@ -27,8 +27,6 @@ object frmCadastroCliente: TfrmCadastroCliente
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitTop = 431
-    ExplicitWidth = 634
     DesignSize = (
       511
       41)
@@ -41,7 +39,6 @@ object frmCadastroCliente: TfrmCadastroCliente
       Caption = 'Fechar'
       TabOrder = 0
       OnClick = btnFecharClick
-      ExplicitLeft = 544
     end
   end
   object pgcPrincipal: TPageControl
@@ -52,7 +49,6 @@ object frmCadastroCliente: TfrmCadastroCliente
     ActivePage = tbPesq
     Align = alClient
     TabOrder = 0
-    ExplicitTop = 2
     object tbPesq: TTabSheet
       Caption = 'tbPesq'
       object pnlFiltro: TPanel
@@ -65,7 +61,6 @@ object frmCadastroCliente: TfrmCadastroCliente
         Color = clSilver
         ParentBackground = False
         TabOrder = 0
-        ExplicitWidth = 626
         DesignSize = (
           503
           73)
@@ -88,7 +83,6 @@ object frmCadastroCliente: TfrmCadastroCliente
           Caption = 'Pesquisar'
           TabOrder = 1
           OnClick = btnPesquisarClick
-          ExplicitLeft = 540
         end
       end
       object pnlBtnPesq: TPanel
@@ -101,8 +95,6 @@ object frmCadastroCliente: TfrmCadastroCliente
         Color = clSilver
         ParentBackground = False
         TabOrder = 1
-        ExplicitTop = 360
-        ExplicitWidth = 626
         DesignSize = (
           503
           41)
@@ -115,7 +107,6 @@ object frmCadastroCliente: TfrmCadastroCliente
           Caption = 'Novo'
           TabOrder = 0
           OnClick = btnNovoClick
-          ExplicitLeft = 378
         end
         object btnDetalhar: TButton
           Left = 337
@@ -126,7 +117,6 @@ object frmCadastroCliente: TfrmCadastroCliente
           Caption = 'Detalhar'
           TabOrder = 1
           OnClick = btnDetalharClick
-          ExplicitLeft = 459
         end
         object btnExcluir: TButton
           Left = 418
@@ -137,7 +127,6 @@ object frmCadastroCliente: TfrmCadastroCliente
           Caption = 'Excluir'
           TabOrder = 2
           OnClick = btnExcluirClick
-          ExplicitLeft = 540
         end
       end
       object DBGrid1: TDBGrid
@@ -305,8 +294,6 @@ object frmCadastroCliente: TfrmCadastroCliente
         Color = clSilver
         ParentBackground = False
         TabOrder = 13
-        ExplicitTop = 344
-        ExplicitWidth = 626
         DesignSize = (
           503
           57)
@@ -319,7 +306,6 @@ object frmCadastroCliente: TfrmCadastroCliente
           Caption = 'Listar'
           TabOrder = 3
           OnClick = btnListarClick
-          ExplicitLeft = 303
         end
         object btnAlterar: TButton
           Left = 263
@@ -330,7 +316,6 @@ object frmCadastroCliente: TfrmCadastroCliente
           Caption = 'Alterar'
           TabOrder = 0
           OnClick = btnAlterarClick
-          ExplicitLeft = 382
         end
         object btnGravar: TButton
           Left = 344
@@ -341,7 +326,6 @@ object frmCadastroCliente: TfrmCadastroCliente
           Caption = 'Gravar'
           TabOrder = 1
           OnClick = btnGravarClick
-          ExplicitLeft = 463
         end
         object btnCancelar: TButton
           Left = 425
@@ -352,7 +336,6 @@ object frmCadastroCliente: TfrmCadastroCliente
           Caption = 'Cancelar'
           TabOrder = 2
           OnClick = btnCancelarClick
-          ExplicitLeft = 544
         end
       end
     end

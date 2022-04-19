@@ -34,7 +34,6 @@ object DmCliente: TDmCliente
     Top = 136
   end
   object cdsPesquisar: TClientDataSet
-    Active = True
     Aggregates = <>
     Params = <
       item
